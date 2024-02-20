@@ -1,0 +1,152 @@
+/** Total reset **/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** Aplly DRY conditions **/
+body, .logo, .advert, form label, form button
+{
+    display: block;
+}
+
+body, .logo, .advert, form, label, input, button, .copyright
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo, .advert, form
+{
+    width: 60%;
+}
+
+label, input, button, .copyright
+{
+    width: 50%;
+}
+
+.logo, form h2
+{
+    padding-top: 1rem;
+}
+
+.advert, form
+{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+label, button
+{
+    background-color: rgba(54,54,54,1);
+    color: white;
+}
+
+.advert, form, .copyright
+{
+    text-align: center;
+}
+
+.advert h1, form h2
+{
+    font-weight: 500;
+}
+
+input, button
+{
+    height: 2rem; 
+}
+
+input::placeholder, button
+{
+   font-style: italic;
+}
+/**************************/
+
+/** General Styling **/
+body
+{
+    background-color: black;
+    border: 3px solid white;
+    width: 55%;
+}
+
+main
+{
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 60rem;
+}
+
+.logo
+{
+    margin-top: 1rem;   
+}
+
+section
+{
+    margin: 1rem;
+}
+
+.advert
+{
+    border: 10px solid black;
+}
+
+.advert h1
+{
+    text-transform: capitalize;
+    font-size: 2.8rem;
+}
+
+section p
+{
+    font-size: 1.3rem;
+}
+
+.advert h1, .advert p
+{
+    padding: 0.8rem;
+}
+
+form
+{
+    height: 40%;
+}
+
+form h2
+{
+    font-size: 2rem;
+}
+
+form p
+{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+label
+{
+    text-align: left;
+    padding-left: 0.3rem;
+    text-transform: uppercase;
+}
+
+input
+{
+    margin-bottom: 0.8rem;
+}
+
+button
+{
+    margin-bottom: 1rem;
+}
+
+.copyright{
+    margin-top: 2.0rem;
+    color: rgba(54,54,54,1);  
+    font-size: large;
+}
