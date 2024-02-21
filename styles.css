@@ -59,6 +59,11 @@ input, button
     height: 2rem; 
 }
 
+label, input::placeholder
+{
+    padding-left: 0.3rem;
+}
+
 input::placeholder, button
 {
    font-style: italic;
@@ -131,13 +136,13 @@ form p
 label
 {
     text-align: left;
-    padding-left: 0.3rem;
     text-transform: uppercase;
 }
 
 input
 {
     margin-bottom: 0.8rem;
+    border: none;
 }
 
 button
